@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Hind+Siliguri:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif, 'Fira Sans';
+  }
+  
+title {
+    text-transform: uppercase;
+}
+
+body{
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.container-a{
+    background:#b9afaf94;
+    padding: 30px;
+    position: relative;
+
+}
+
+.container-b{
+    background:#b9afaf94;
+    padding: 0px;
+    position: relative;
+}
+.a, .b{
+    background:#b9afaf94;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    margin: 0px;
+}
+
+.btn{
+    display: inline-block;
+
+}
+
+textarea{
+    width: 500px;
+    height:300px;
+}
+
+
+/* .container-c{
+    padding:20px;
+    margin:0px;
+} */
+
+.container-c {
+    display: flex;
+    background: #ffffff;
+    padding: 25px;
+    text-align: left;
+    color: #000000;
+  }
+/* footer{
+    background: #ffffff;
+    padding:10px;
+    text-align: justify;
+    border:0px;
+
+} */
+
